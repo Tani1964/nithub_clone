@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    h2{
+        @apply font-sans self-center text-green-600 p-20 text-7xl font-bold;
+    }
+    h3{
+        @apply text-green-900 font-semibold text-2xl;
+    }
+}
